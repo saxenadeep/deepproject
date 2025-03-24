@@ -8,7 +8,22 @@
         <!-- slider -->
         <div class="row" style="margin-top: -25px;">
             <div class="col-sm-12">
-                <img src="{% static 'img/banner.jpg' %}" style="width: 100%; height: 450px; background-size: cover; background-repeat: norepeat">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{% static 'img/love.jpeg' %}" class="d-block w-100" height="600px">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="{% static 'img/bsa.jpeg' %}" class="d-block w-100" height="600px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'img/bsa-2.jpeg' %}" class="d-block w-100" alt="..." height="600px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'img/bsa-4.jpeg' %}" class="d-block w-100" alt="..." height="600px">
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
         <!-- slider -->
@@ -30,13 +45,13 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-6" style="margin-top: 80px;">
                 <h3 style="color: lightgrey;">DESCRIPTION</h3>
-                <h2 class="fw-bold" style="margin-top: -20px">ABOUT <span style="color: darkred;">NOU e-GYAN PORTAL</span></h2>
-                <p style="margin-top: 50px; font-size: 20px"><b>Nalanda Open University</b> welcomes all our students, faculties & study centres to the very new & innovative online study portal NOU e-Gyan. The portal is a unique initiative by Hon'ble Vice-Chancellor Prof. (Dr.) K C Sinha, which aims at providing online study material to the students of NOU.</p>
-                <p style="margin-top: 40px; font-size: 20px">The portal is accessible from any hook and corner of the world if the system allows the permission to its users. It is also fully secured and accessible 24 x 7 to its authorised users. It will resolve the academic issues such as E-content Distribution, Delivery, Tracking, Assessment, Progress Monitoring & Controlling of all stakeholders of the system i.e. students, teachers, study centre administrators as well as Nalanda Open University Admins when they are at a distance.</p>
+                <h2 class="fw-bold" style="margin-top: -20px">ABOUT <span style="color: darkred;">BSA College E-Portal</span></h2>
+                <p style="margin-top: 50px; font-size: 20px"><b>BSA College</b> welcomes all our students, faculties & study centres to the very new & innovative online study portal. The portal is a unique initiative by Hon'ble Chairman ADV Shri Uma Shankar Agrawal, which aims at providing online study material to the students of BSA.</p>
+                <p style="margin-top: 40px; font-size: 20px">The portal is accessible from any hook and corner of the world if the system allows the permission to its users. It is also fully secured and accessible 24 x 7 to its authorised users. It will resolve the academic issues such as E-content Distribution, Delivery, Tracking, Assessment, Progress Monitoring & Controlling of all stakeholders of the system i.e. students, teachers, study centre administrators as well as College Admins when they are at a distance.</p>
             </div>
             <div class="col-sm-5 " style="margin-top: 200px;">
-                <img src="{% static 'img/thumbnail.jpeg' %}" style="width: 380px; height: 250px; margin-top: 60px; margin-left: -20px; position: absolute">
-                <img src="{% static 'img/slider1.jpeg' %}" style="width: 90%; height: 100%; margin-left: 80px">
+                <img src="{% static 'img/bsa.jpeg' %}" style="width: 400px; height: 250px; margin-top: 60px; margin-left: -20px; position: absolute">
+                <img src="{% static 'img/virtual.jpg' %}" style="width: 90%; height: 100%; margin-left: 80px">
             </div>
         </div>
         
@@ -139,26 +154,26 @@
 
             <div class="col-sm-2" style="margin-top: -50px;">
                 <div class="div text-center" style="height: 250px; width: 250px; margin-left:130px ; background-color: white; border: 1px solid black">
-                    <img src="{% static 'img/vc.jpg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
-                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Prof. (Dr.) K. C. Sinha</h2>
-                    <p style="margin-top: -5px">VICE CHANCELLOR</p>
+                    <img src="{% static 'img/chair.png' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
+                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Adv.Shri Uma Shankar Agrawal</h2>
+                    <p style="margin-top: -5px">Chairman</p>
                 
                 </div>
             
             </div>
             <div class="col-sm-2" style="margin-top: -80px;">
                 <div class="div text-center" style="height: 250px; width: 250px; margin-top: 30px; margin-left:200px ; background-color: white; border: 1px solid black">
-                    <img src="{% static 'img/pvc.jpg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
-                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Prof. (Dr.) Sanjoy Kumar</h2>
-                    <p style="margin-top: -5px">PRO VICE CHANCELLOR</p>
+                    <img src="{% static 'img/vc2.jpg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
+                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Er. Nitin Mittal</h2>
+                    <p style="margin-top: -5px">Vice Chairman</p>
                 </div>
             
             </div>
             <div class="col-sm-2" style="margin-top: -80px;">
                 <div class="div text-center" style="height: 250px; width: 250px; margin-top: 30px; margin-left:260px ; background-color: white; border: 1px solid black">
-                    <img src="{% static 'img/registrar1.jpeg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
-                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Dr. Md. Habibur Rahman</h2>
-                    <p style="margin-top: -5px">REGISTRAR</p>
+                    <img src="{% static 'img/direct.jpeg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
+                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Dr. (Prof.) Shyam S Agrawal</h2>
+                    <p style="margin-top: -5px">Director</p>
                 
  
                 </div>
@@ -166,9 +181,9 @@
             </div>
             <div class="col-sm-2" style="margin-top: -80px;">
                 <div class="div text-center" style="height: 250px; width: 250px; margin-top: 30px; margin-left:320px ; background-color: white; border: 1px solid black">
-                    <img src="{% static 'img/examreg.jpg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
-                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Dr. Neelam Kumari</h2>
-                    <p style="margin-top: -5px">REGISTRAR (Exam)</p>
+                    <img src="{% static 'img/img1.jpeg' %}" height="50%" style="margin-top: 20px; border-radius: 50%; border:1px double darkred">
+                    <h2 style="color: darkred; font-size: 20px; margin-top: 20px">Shri Pramod Kumar Garg</h2>
+                    <p style="margin-top: -5px">Board Member</p>
                 
                 </div>
             
@@ -246,7 +261,7 @@
                         
                         </div>
                         <div class="col-sm-6">
-                            <h5 style="margin-top: 20px">nouegyanhelp@gmail.com</h5>
+                            <h5 style="margin-top: 20px">bsacethelp@gmail.com</h5>
                         
                         </div>
                     </div>
@@ -326,9 +341,9 @@
                         <div class="col-sm-9">
                             <p style="margin-left: 75%; margin-top: -210px; font-size: 20px"><b>"This&nbsp;is&nbsp;best&nbsp;and&nbsp;biggest&nbsp;unified&nbsp;platform&nbsp;for&nbsp;instant&nbsp;online&nbsp;learning&nbsp;.&nbsp;We&nbsp;can&nbsp;easily&nbsp;access&nbsp;any&nbsp;
                                 
-                                content&nbsp;of&nbsp;our&nbsp;enrolled&nbsp;course&nbsp;from&nbsp;the&nbsp;portal&nbsp;.&nbsp;Thank&nbsp;you&nbsp;NOU&nbsp;e-Gyan!!“</b></p>
-                                <h5 style="margin-left: 75%;margin-top: 40px; color: grey">-&nbsp;Saurabh&nbsp;Tripathi-
-                                    University&nbsp;Student</h5>
+                                content&nbsp;of&nbsp;our&nbsp;enrolled&nbsp;course&nbsp;from&nbsp;the&nbsp;portal&nbsp;.&nbsp;Thank&nbsp;you&nbsp;BSA&nbsp;College!!“</b></p>
+                                <h5 style="margin-left: 75%;margin-top: 40px; color: grey">-&nbsp;Shreya&nbsp;Maheshwari-
+                                    College&nbsp;Student</h5>
                         </div>
                          </div>
                         <div class="col-sm-5" style="height: 400px">
@@ -339,9 +354,11 @@
                                 </div>
                                 <div class="col-sm-9">
                                     <p style="margin-left: 145%; margin-top: -210px; font-size: 20px"><b>"This&nbsp;is&nbsp;best&nbsp;and&nbsp;biggest&nbsp;unified&nbsp;platform&nbsp;for&nbsp;instant&nbsp;online&nbsp;learning&nbsp;.&nbsp;We&nbsp;can&nbsp;easily&nbsp;access&nbsp;any&nbsp;content&nbsp;of
-                                     our&nbsp;enrolled&nbsp;course&nbsp;from&nbsp;the&nbsp;portal&nbsp;.&nbsp;Thank&nbsp;you&nbsp;NOU&nbsp;e-Gyan!!“</b></p>
+                                     our&nbsp;enrolled&nbsp;course&nbsp;from&nbsp;the&nbsp;portal&nbsp;.&nbsp;Thank&nbsp;you&nbsp;BSA&nbsp;College!!“</b></p>
+                                    <h5 style="margin-left: 140%;margin-top: 40px; color: grey">-&nbsp;Deepansh&nbsp;Saxena-
+                                    College&nbsp;Student</h5>
                                 </div>
-                                 </div>
+                             </div>
                          
                       <div class="carousel-item">
                         <!-- <img src="{% static 'img/t4.jpg' %}" class="d-block" alt="..."> -->
